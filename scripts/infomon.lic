@@ -291,7 +291,7 @@ UpstreamHook.add('infomon', action)
 $infomon_sleeping = false
 $infomon_bound = false
 $infomon_silenced = false
-$infomon_calmed = true
+$infomon_calmed = false
 $infomon_cutthroat = false
 
 #
