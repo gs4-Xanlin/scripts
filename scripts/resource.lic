@@ -28,10 +28,12 @@
     author: Elanthia-Online
       name: resource
       tags: resource, tears, 330, santify, grit, essence, enchant, enchanting, 925, recall, loresinging, bard, lkp, unlocking, murderverse, murder, juice, necrojuice, ensorcell, ensorcelling, 735, mystic tattoo, tattoo, mystic, grit, wps, devotion, jesus juice, sanctify, 330, permabless, 620, ranger, druid fluid, grace
-  requires: Lich > 5.4.0
-   version: 1.8.5
+  required: Lich >= 5.5.0
+   version: 1.8.6
 
   changelog:
+    1.8.6 (2022-11-03)
+      required: Lich >= 5.5.0, global constant to local variable for lich_gem_requires
     1.8.5 (2022-11-03)
       Fix for monsterbold show_bonuses table
     1.8.4 (2022-11-03)
@@ -74,12 +76,12 @@
 
 silence_me
 
-LICH_GEM_REQUIRES = '5.5.0'
+lich_gem_requires = '5.5.0'
 
-if Gem::Version.new(LICH_VERSION) < Gem::Version.new(LICH_GEM_REQUIRES)
+if Gem::Version.new(LICH_VERSION) < Gem::Version.new(lich_gem_requires)
   if $frontend == 'stormfront' || $frontend == 'profanity'
     _respond "\<preset id=\"speech\"\>" + "########################################" + "\<\/preset\>"
-    _respond "\<preset id=\"thought\"\>" + "Script:#{script.name} now requires a newer version of Lich(#{LICH_GEM_REQUIRES}+) to run." + "\<\/preset\>"
+    _respond "\<preset id=\"thought\"\>" + "Script:#{script.name} now requires a newer version of Lich(#{lich_gem_requires}+) to run." + "\<\/preset\>"
     _respond "\<preset id=\"thought\"\>" + "Please update to a newer version." + "\<\/preset\>"
     _respond ""
     _respond "\<preset id=\"thought\"\>" + "Currently Running Lich Version: #{Gem::Version.new(LICH_VERSION) }" + "\<\/preset\>"
@@ -87,7 +89,7 @@ if Gem::Version.new(LICH_VERSION) < Gem::Version.new(LICH_GEM_REQUIRES)
     _respond "\<preset id=\"speech\"\>" + "########################################" + "\<\/preset\>"
   else
     _respond "##" + "########################################" 
-    _respond ">" + "Script:#{script.name} now requires a newer version of Lich(#{LICH_GEM_REQUIRES}+) to run." 
+    _respond ">" + "Script:#{script.name} now requires a newer version of Lich(#{lich_gem_requires}+) to run." 
     _respond ">" + "Please update to a newer version."
     _respond ">" + ""
     _respond ">" + "Currently Running Lich Version: #{Gem::Version.new(LICH_VERSION) }"
