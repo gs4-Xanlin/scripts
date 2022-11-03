@@ -14,14 +14,15 @@
       contributers: Tillmen, Tysong, Doug, Rinualdo, Xanlin
               game: Gemstone
               tags: healing, herbs
-          requires: Lich >= 4.6.0
-           version: 1.4.3
-  1.4.3 (2022-09-22): Xanlin: Fix override behavior 
+          required: Lich >= 4.6.0
+           version: 1.4.4
+  1.4.4 (2022-11-03): Xanlin: Typo fix
 
 =end
 =begin
   Version Semantics:
     Major_change.feature_addition.bugfix
+  1.4.4 (2022-11-03): Xanlin: Typo fix
   1.4.3 (2022-09-22): Xanlin: Fix override behavior 
   1.4.2 (2022-09-18): Xanlin: River's Rest winterberry brew
   1.4.1 (2022-09-17): Xanlin: update instance variable when preferences set. Changed internal name for skip-scars to skip_scars and use-mending to use_mending.
