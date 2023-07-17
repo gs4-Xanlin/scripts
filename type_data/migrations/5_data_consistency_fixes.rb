@@ -16,6 +16,8 @@ migrate :aggressive_npc do
   insert(:name, "necrotic snake")
   insert(:name, "spectre")
   insert(:name, "wild dog")
+  insert(:name, %{brindle wild hound})
+  insert(:name, %{(?:black|mangy|spotted|mongrel) wild dog})
 end
 
 migrate :undead do
