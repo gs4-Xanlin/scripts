@@ -1,504 +1,506 @@
 prefix:    
   # dangerous
-  - seasoned
-  - grizzled 
-  - battle\-scarred 
   - ancient 
+  - battle\-scarred 
+  - grizzled 
+  - seasoned
   - veteran
   # confluence
   - huge
 name:
-  - Shopkeeper
-  - Innkeeper
-  - Bartender
-  - Patrol Leader
-  - Bandit Lord
+  - (?:black|mangy|mongrel|spotted) wild dog
+  - (?:red|yellow|green|blue|orange|purple|young) myklian
+  - (?:seasoned )?(?:dwarven|elven|halfling|erithian|human|giantman|half\-krolvin|gnomish|half\-elven) (?:thief|rogue|bandit|mugger|outlaw|highwayman|marauder|brigand|thug|robber)
+  - (?:seasoned |grizzled |battle\-scarred |weathered |veteran |hulking |haggard )?Grimswarm (?:giant|troll|orc) (?:warmonger|spellbinder|sentinel|healer|empath|sniper|crusader|warlock|soldier|sorcerer|sorceress|ranger|warrior|elementalist|mage|wizard|raider|acolyte|guard|paladin|battlemage|archer|skirmisher|scout|shaman|warchief|pillager|marauder|cleric|initiate|dissembler|barbarian|fighter|scourge|champion|huntmaster|warmage|hunter|destroyer|witch|wrathbringer|adept|zealot|huntmistress)
+  - (?:white |black |tan |roan )?centaur
+  - (?:fire|lightning|lava|steam|air|ice|water|earth) elemental
   - Bandit Lady
-  - Gypsy Queen
-  - Gypsy King
-  - Guard Captain
-  - Wall Captain
+  - Bandit Lord
+  - Bartender
+  - Bresnahanini rolton
+  - Csetairi
   - Drill Sergeant
-  - Stable Hostler
   - Dungeon Master
+  - Guard Captain
+  - Gypsy King
+  - Gypsy Queen
+  - Illoke elder
+  - Illoke jarl
+  - Illoke mystic
+  - Illoke shaman
+  - Innkeeper
+  - Ithzir adept
+  - Ithzir herald
+  - Ithzir initiate
+  - Ithzir janissary
+  - Ithzir scout
+  - Ithzir seer
   - Master Torturer
+  - Mistydeep siren
+  - Neartofar orc
+  - Patrol Leader
+  - Sheruvian harbinger
+  - Sheruvian initiate
+  - Sheruvian monk
+  - Shopkeeper
+  - Stable Hostler
   - The Emperor
   - The Empress
-  - ethereal (?:traveller|commoner|townswoman|villager|denizen|peasant|townsman)
-  - black rolton
-  - black\-winged daggerbeak
-  - carrion worm
-  - fanged rodent
-  - fire ant
-  - giant ant
-  - giant rat
-  - kobold
-  - lesser ghoul
-  - mountain rolton
-  - rolton
-  - skeleton
-  - slimy little grub
-  - spotted gnarp
-  - young grass snake
-  - zombie rolton
-  - Mistydeep siren
-  - big ugly kobold
-  - brown gak
-  - cave gnome
-  - fanged goblin
-  - ghost
-  - goblin
-  - lesser frost shade
-  - lesser shade
-  - moaning phantom
-  - pale crab
-  - phantom
-  - rabid squirrel
-  - sea nymph
-  - spotted gak
-  - thyril
-  - Bresnahanini rolton
-  - cave gnoll
-  - cave nipper
-  - dark vysan
-  - fire salamander
-  - greater ghoul
-  - greater ice spider
-  - hobgoblin
-  - ice skeleton
-  - kobold shepherd
-  - mountain snowcat
-  - relnak
-  - spotted velnalin
-  - striped gak
-  - striped relnak
-  - troglodyte
-  - velnalin
-  - white vysan
-  - black urgh
-  - cobra
-  - fanged viper
-  - mongrel kobold
-  - revenant
-  - ridge orc
-  - spotted leaper
-  - urgh
-  - water moccasin
-  - whiptail
-  - bobcat
-  - coyote
-  - dark apparition
-  - mist wraith
-  - mongrel hobgoblin
-  - night golem
-  - water witch
-  - cockatrice
-  - firephantom
-  - leaper
-  - lesser mummy
-  - lesser orc
-  - monkey
-  - snowy cockatrice
-  - spectral fisherman
-  - spotted lynx
-  - blood eagle
-  - greater kappa
-  - hobgoblin shaman
-  - lesser burrow orc
-  - lesser red orc
-  - shelfae soldier
-  - albino tomb spider
-  - bone golem
-  - crystal crab
-  - greater burrow orc
-  - greater orc
-  - greater spider
-  - mottled thrak
-  - thrak
-  - brown spinner
-  - crocodile
-  - death dirge
-  - manticore
-  - snow spectre
-  - cave worm
-  - giant marmot
-  - gnoll worker
-  - great boar
-  - rabid guard dog
-  - raider orc
-  - werebear
-  - Neartofar orc
-  - shelfae chieftain
-  - wall guardian
-  - crystal golem
-  - dark orc
-  - darkwoode
-  - deranged sentry
-  - gnoll thief
-  - great stag
-  - plumed cockatrice
-  - tawny brindlecat
-  - agresh troll scout
-  - black boar
-  - brown boar
-  - forest troll
-  - giant weasel
-  - great brown bear
-  - grey orc
-  - silverback orc
-  - shadowy spectre
-  - specter
-  - swamp troll
-  - arctic puma
-  - black leopard
-  - gnoll ranger
-  - humpbacked puma
-  - large ogre
-  - luminous arachnid
-  - neartofar troll
-  - panther
-  - puma
-  - ridgeback boar
-  - tomb wight
-  - wolfshade
-  - wraith
+  - Vvrael destroyer
+  - Vvrael warlock
+  - Vvrael witch
+  - Wall Captain
   - agresh bear
-  - agresh troll warrior
-  - banded rattlesnake
-  - black bear
-  - cave troll
-  - fire guardian
-  - fire rat
-  - ghost wolf
-  - ghoul master
-  - hill troll
-  - mongrel troll
-  - mongrel wolfhound
-  - mountain ogre
-  - phosphorescent worm
-  - plains orc warrior
-  - red bear
-  - wind witch
-  - black panther
-  - dark shambler
-  - forest ogre
-  - giant veaba
-  - gnoll guard
-  - krolvin mercenary
-  - mountain goat
-  - mountain troll
-  - plains ogre
-  - plains orc scout
-  - spiked cavern urchin
-  - bighorn sheep
-  - cave lizard
-  - elder ghoul master
-  - fire cat
-  - ghostly warrior
-  - greenwing hornet
-  - mountain lion
-  - nedum vereri
-  - plains lion
-  - plains orc shaman
-  - rotting krolvin pirate
-  - shelfae warlord
-  - thunder troll
-  - war troll
-  - krolvin warrior
   - agresh troll chieftain
-  - arch wight
-  - gnoll priest
-  - major spider
-  - massive grahnk
-  - ogre warrior
-  - steel golem
-  - striped warcat
-  - wood wight
+  - agresh troll scout
+  - agresh troll warrior
+  - aivren
+  - albino tomb spider
   - ancient ghoul master
-  - arachne servant
-  - cave bear
-  - plains orc chieftain
-  - cougar
-  - crested basilisk
-  - dark panther
-  - warthog
+  - animated slush
   - arachne acolyte
-  - centaur ranger
-  - crazed zombie
-  - fenghai
-  - niirsha
-  - nonomino
-  - rotting woodsman
-  - zombie
-  - arctic wolverine
-  - burly reiver
-  - giant albino scorpion
-  - ice hound
-  - night hound
-  - reiver
-  - roa'ter wormling
-  - tree viper
-  - veteran reiver
-  - wolverine
-  - carceris
-  - gnoll jarl
-  - krolvin warfarer
-  - sacristan spirit
-  - spectral monk
   - arachne priest
   - arachne priestess
-  - jungle troll
-  - tree spirit
-  - grutik savage
-  - cyclops
-  - frenzied monk
-  - lesser stone gargoyle
-  - monastic lich
-  - snow leopard
-  - troll chieftain
-  - darken
-  - dobrem
-  - fire ogre
-  - giant hawk\-owl
-  - ki\-lin
-  - martial eagle
-  - moaning spirit
-  - grutik shaman
+  - arachne servant
+  - arch wight
   - arctic manticore
-  - ice troll
-  - pra'eda
-  - scaly burgee
-  - elder tree spirit
-  - giant albino tomb spider
-  - hisskra warrior
-  - hooded figure
-  - hunter troll
-  - jungle troll chieftain
-  - lesser wood sprite
-  - mammoth arachnid
-  - tegursh sentry
+  - arctic puma
+  - arctic titan
+  - arctic wolverine
   - ash hag
-  - krynch
-  - skeletal ice troll
-  - wild hound
+  - baesrukha
+  - banded rattlesnake
+  - banshee
+  - barghest
+  - bent being
+  - big ugly kobold
+  - bighorn sheep
+  - black bear
+  - black boar
+  - black forest ogre
+  - black forest viper
+  - black leopard
+  - black panther
+  - black rolton
+  - black urgh
+  - black\-winged daggerbeak
+  - blood eagle
+  - bobcat
+  - bog spectre
+  - bog troll
+  - bog wight
+  - bog wraith
+  - bone golem
+  - brindle wild hound
+  - brown boar
+  - brown gak
+  - brown spinner
+  - burly reiver
+  - caedera
+  - carceris
   - caribou
+  - carrion worm
+  - cave bear
+  - cave gnoll
+  - cave gnome
+  - cave lizard
+  - cave nipper
+  - cave troll
+  - cave worm
+  - centaur ranger
+  - chieftain
+  - cinder wasp
+  - cobra
+  - cockatrice
+  - cold guardian
+  - colossal titan
+  - colossus vulture
+  - cougar
+  - coyote
+  - crazed zombie
+  - crested basilisk
+  - crocodile
+  - crystal crab
+  - crystal golem
+  - csetairi
+  - cyclops
+  - dark apparition
+  - dark orc
+  - dark panther
+  - dark shambler
+  - dark vortece
+  - dark vysan
+  - darken
+  - darkly inked fetish master
+  - darkwoode
+  - death dirge
+  - decaying Citadel guardsman
+  - deranged sentry
+  - dhu goleras
+  - dobrem
+  - dreadnought raptor
+  - dust beetle
+  - dybbuk
+  - eidolon
+  - elder ghoul master
+  - elder tree spirit
+  - emaciated hierophant
+  - enormous rift crawler
+  - ethereal (?:traveller|commoner|townswoman|villager|denizen|peasant|townsman)
+  - ethereal mage apprentice
+  - ethereal triton sentry
+  - fallen crusader
+  - fanged goblin
+  - fanged rodent
+  - fanged viper
+  - farlook
+  - fenghai
+  - festering taint
+  - fire ant
+  - fire cat
+  - fire giant
+  - fire guardian
+  - fire mage
+  - fire ogre
+  - fire rat
+  - fire salamander
+  - fire sprite
+  - firephantom
+  - firethorn shoot
+  - flesh golem
+  - forest bendith
+  - forest ogre
+  - forest trali
+  - forest trali shaman
+  - forest troll
+  - frenzied monk
+  - frost giant
+  - frozen corpse
+  - gaunt spectral servant
+  - ghost
+  - ghost wolf
   - ghostly mara
-  - giant fog beetle
-  - rotting corpse
-  - rotting farmhand
   - ghostly pooka
+  - ghostly warrior
+  - ghoul master
+  - giant albino scorpion
+  - giant albino tomb spider
+  - giant ant
+  - giant fog beetle
+  - giant hawk\-owl
+  - giant marmot
+  - giant rat
+  - giant veaba
+  - giant weasel
+  - glacial morph
+  - glistening cerebralite
+  - gnarled being
+  - gnoll guard
+  - gnoll jarl
+  - gnoll miner
+  - gnoll priest
+  - gnoll ranger
+  - gnoll thief
+  - gnoll worker
+  - goblin
+  - great boar
+  - great brown bear
+  - great stag
+  - greater bog troll
+  - greater burrow orc
+  - greater construct
+  - greater earth elemental
+  - greater faeroth
+  - greater ghoul
+  - greater ice giant
+  - greater ice spider
+  - greater kappa
+  - greater krynch
+  - greater moor wight
+  - greater orc
+  - greater spider
+  - greater vruul
+  - greater water elemental
+  - greenwing hornet
+  - gremlock
+  - grey orc
+  - grifflet
+  - grizzly bear
+  - grutik savage
+  - grutik shaman
+  - hanging tree viper
+  - hill troll
+  - hisskra chieftain
   - hisskra shaman
+  - hisskra warrior
+  - hobgoblin
+  - hobgoblin shaman
+  - hooded figure
+  - horned vor'taz
+  - huge mein golem
+  - humpbacked puma
+  - hunch\-backed dogmatist
+  - hunter troll
+  - ice golem
+  - ice hound
+  - ice skeleton
+  - ice troll
+  - ice wraith
+  - jungle troll
+  - jungle troll chieftain
+  - ki\-lin
+  - kiramon defender
+  - kiramon worker
+  - kobold
+  - kobold shepherd
+  - krag dweller
+  - krag yeti
+  - krolvin corsair
+  - krolvin mercenary
+  - krolvin slaver
+  - krolvin warfarer
+  - krolvin warrior
+  - krynch
+  - large ogre
+  - lava golem
+  - lava troll
+  - leaper
+  - lesser burrow orc
+  - lesser construct
+  - lesser faeroth
+  - lesser frost shade
+  - lesser ghoul
+  - lesser griffin
+  - lesser ice elemental
+  - lesser ice giant
+  - lesser minotaur
+  - lesser moor wight
+  - lesser mummy
+  - lesser orc
+  - lesser red orc
+  - lesser shade
+  - lesser stone gargoyle
+  - lesser vruul
+  - lesser wood sprite
+  - lich qyn'arj
+  - lost soul
+  - luminous arachnid
+  - magru
+  - major glacei
+  - major spider
+  - mammoth arachnid
+  - manticore
+  - martial eagle
+  - massive black boar
+  - massive grahnk
+  - massive pyrothag
+  - massive troll king
+  - mastodonic leopard
   - maw spore
   - mezic
-  - moor hound
-  - sand beetle
-  - skeletal giant
-  - three\-toed tegu
-  - cold guardian
-  - colossus vulture
-  - hisskra chieftain
-  - lava troll
-  - moor witch
-  - rock troll zombie
-  - skeletal soldier
-  - spectral warrior
-  - tundra giant
-  - barghest
-  - bog troll
-  - moor eagle
-  - shimmering fungus
-  - spectral shade
-  - spectral woodsman
-  - troll wraith
-  - water wyrd
-  - arctic titan
-  - dust beetle
-  - fire giant
-  - krolvin slaver
-  - snow crone
-  - spectral lord
-  - undertaker bat
-  - Sheruvian initiate
-  - huge mein golem
-  - lesser moor wight
-  - magru
-  - shadow mare
-  - skeletal warhorse
-  - tusked ursian
-  - frost giant
-  - grizzly bear
-  - krolvin corsair
-  - mud wasp
-  - shadow steed
-  - vesperti
-  - wood sprite
-  - greater bog troll
-  - greater moor wight
-  - stone gargoyle
-  - storm giant
-  - vourkha
-  - forest bendith
-  - kiramon worker
-  - (?:red|yellow|green|blue|orange|purple|young) myklian
-  - spectral miner
-  - Sheruvian monk
-  - bog wraith
-  - lesser ice giant
-  - roa'ter
-  - skeletal lord
-  - baesrukha
-  - dark vortece
-  - frozen corpse
   - minor glacei
+  - minotaur magi
+  - minotaur magus
+  - minotaur warrior
+  - mist wraith
+  - moaning phantom
+  - moaning spirit
+  - monastic lich
+  - mongrel hobgoblin
+  - mongrel kobold
+  - mongrel troll
+  - mongrel wolfhound
+  - monkey
+  - monstrous crimson worm
+  - moor eagle
+  - moor hound
+  - moor witch
+  - mottled thrak
+  - moulis
+  - moulis stalk
+  - mountain goat
+  - mountain lion
+  - mountain ogre
+  - mountain rolton
+  - mountain snowcat
+  - mountain troll
+  - mud wasp
+  - muscular supplicant
+  - n'ecare
+  - naisirc
+  - nasty little (?:red|yellow|green|orange|black|blue) gremlin
+  - neartofar troll
+  - nedum vereri
+  - night golem
+  - night hound
+  - night mare
+  - nightmare steed
+  - niirsha
+  - nonomino
+  - ogre warrior
+  - pale crab
+  - panther
   - phantasma
+  - phantasmal bestial swordsman
+  - phantom
+  - phosphorescent worm
+  - plains lion
+  - plains ogre
+  - plains orc chieftain
+  - plains orc scout
+  - plains orc shaman
+  - plains orc warrior
+  - plumed cockatrice
+  - polar bear
+  - pra'eda
+  - puma
+  - putrefied Citadel herald
+  - rabid guard dog
+  - rabid squirrel
+  - raider orc
+  - ravenous krolvin berserker
+  - raving lunatic
+  - red bear
+  - red tsark
+  - red\-scaled thrak
+  - reiver
+  - relnak
+  - revenant
+  - ridge orc
+  - ridgeback boar
+  - roa'ter
+  - roa'ter wormling
+  - rock troll zombie
+  - rolton
+  - rotting Citadel arbalester
+  - rotting chimera
+  - rotting corpse
+  - rotting farmhand
+  - rotting krolvin pirate
+  - rotting woodsman
+  - sabre\-tooth tiger
+  - sacristan spirit
+  - sand beetle
+  - sand devil
+  - scaly burgee
+  - sea nymph
+  - seeker
+  - seraceris
+  - shadow mare
+  - shadow steed
+  - shadowy spectre
   - shan cleric
   - shan ranger
   - shan warrior
   - shan wizard
-  - siren lizard
-  - swamp hag
-  - dreadnought raptor
-  - night mare
-  - wasp nest
-  - bog wight
-  - firethorn shoot
-  - forest trali shaman
-  - gaunt spectral servant
-  - mastodonic leopard
-  - polar bear
-  - ice wraith
-  - lesser vruul
-  - cinder wasp
-  - forest trali
-  - greater ice giant
-  - kiramon defender
-  - lesser faeroth
-  - rotting chimera
-  - bog spectre
-  - major glacei
-  - dybbuk
-  - horned vor'taz
-  - red\-scaled thrak
-  - sand devil
-  - warrior shade
-  - waern
-  - banshee
-  - flesh golem
-  - greater faeroth
-  - seeker
-  - snow madrinol
-  - tomb troll
-  - wooly mammoth
-  - ice golem
-  - lesser ice elemental
-  - sabre\-tooth tiger
-  - stone sentinel
-  - animated slush
-  - ethereal mage apprentice
-  - skayl
-  - tomb troll necromancer
-  - eidolon
-  - nightmare steed
-  - stone troll
-  - decaying Citadel guardsman
-  - glacial morph
-  - lava golem
-  - massive pyrothag
-  - rotting Citadel arbalester
-  - stone giant
-  - black forest viper
-  - massive black boar
-  - black forest ogre
-  - putrefied Citadel herald
-  - wind wraith
-  - Illoke mystic
-  - phantasmal bestial swordsman
-  - stone mastiff
-  - Sheruvian harbinger
-  - massive troll king
-  - soul golem
-  - fire sprite
-  - grifflet
-  - emaciated hierophant
-  - red tsark
-  - Illoke shaman
-  - muscular supplicant
-  - yeti
-  - lesser griffin
-  - hunch\-backed dogmatist
-  - krag yeti
-  - fire mage
-  - krag dweller
-  - storm griffin
-  - lesser minotaur
-  - greater vruul
-  - moulis
-  - naisirc
-  - minotaur warrior
+  - shelfae chieftain
+  - shelfae soldier
+  - shelfae warlord
+  - shimmering fungus
   - shrickhen
-  - farlook
-  - raving lunatic
-  - dhu goleras
-  - minotaur magi
-  - seraceris
-  - Vvrael witch
-  - Csetairi
-  - caedera
-  - gnarled being
-  - bent being
-  - stooped being
-  - twisted being
-  - lesser construct
-  - Vvrael warlock
-  - greater krynch
-  - gremlock
-  - lich qyn'arj
-  - Illoke elder
-  - aivren
-  - festering taint
-  - n'ecare
-  - greater earth elemental
-  - Illoke jarl
-  - Ithzir scout
-  - Ithzir initiate
-  - lost soul
-  - Ithzir janissary
-  - Ithzir herald
-  - vaespilon
-  - triton dissembler
-  - Ithzir adept
-  - greater construct
+  - silverback orc
   - siren
-  - triton executioner
-  - fallen crusader
-  - Ithzir seer
-  - spectral triton defender
-  - triton combatant
-  - glistening cerebralite
-  - triton radical
-  - war griffin
-  - triton magus
-  - enormous rift crawler
-  - ethereal triton sentry
-  - darkly inked fetish master
-  - greater water elemental
-  - csetairi
-  - Vvrael destroyer
+  - siren lizard
+  - skayl
+  - skeletal giant
+  - skeletal ice troll
+  - skeletal lord
+  - skeletal soldier
+  - skeletal warhorse
+  - skeleton
+  - slimy little grub
+  - snow crone
+  - snow leopard
+  - snow madrinol
+  - snow spectre
+  - snowy cockatrice
+  - soul golem
   - soul siphon
-  - wizened orc hag
-  - colossal titan
-  - ravenous krolvin berserker
-  - gnoll miner
-  - vvrael warlock
-  - monstrous crimson worm
-  - chieftain
-  - triton sentry
+  - specter
+  - spectral fisherman
+  - spectral lord
+  - spectral miner
+  - spectral monk
+  - spectral shade
+  - spectral triton defender
+  - spectral warrior
+  - spectral woodsman
+  - spiked cavern urchin
+  - spotted gak
+  - spotted gnarp
+  - spotted leaper
+  - spotted lynx
+  - spotted velnalin
+  - steel golem
+  - stone gargoyle
+  - stone giant
+  - stone mastiff
+  - stone sentinel
+  - stone troll
+  - stooped being
+  - storm giant
+  - storm griffin
+  - striped gak
+  - striped relnak
+  - striped warcat
+  - swamp hag
+  - swamp troll
+  - tawny brindlecat
+  - tegursh sentry
+  - thrak
+  - three\-toed tegu
+  - thunder troll
+  - thyril
+  - tomb troll
+  - tomb troll necromancer
+  - tomb wight
+  - tree spirit
+  - tree viper
+  - triton combatant
   - triton defender
-  - minotaur magus
-  - moulis stalk
-  - hanging tree viper
-  - nasty little (?:red|yellow|green|orange|black|blue) gremlin
-  - (?:white |black |tan |roan )?centaur
-  - (fire|lightning|lava|steam|air|ice|water|earth) elemental
-  - (?:seasoned |grizzled |battle\-scarred |weathered |veteran |hulking |haggard )?Grimswarm (?:giant|troll|orc) (?:warmonger|spellbinder|sentinel|healer|empath|sniper|crusader|warlock|soldier|sorcerer|sorceress|ranger|warrior|elementalist|mage|wizard|raider|acolyte|guard|paladin|battlemage|archer|skirmisher|scout|shaman|warchief|pillager|marauder|cleric|initiate|dissembler|barbarian|fighter|scourge|champion|huntmaster|warmage|hunter|destroyer|witch|wrathbringer|adept|zealot|huntmistress)
-  - (?:seasoned )?(?:dwarven|elven|halfling|erithian|human|giantman|half\-krolvin|gnomish|half\-elven) (?:thief|rogue|bandit|mugger|outlaw|highwayman|marauder|brigand|thug|robber)
+  - triton dissembler
+  - triton executioner
+  - triton magus
+  - triton radical
+  - triton sentry
+  - troglodyte
+  - troll chieftain
+  - troll wraith
+  - tundra giant
+  - tusked ursian
+  - twisted being
+  - undertaker bat
+  - urgh
+  - vaespilon
+  - velnalin
+  - vesperti
+  - veteran reiver
+  - vourkha
+  - vvrael warlock
+  - waern
+  - wall guardian
+  - war griffin
+  - war troll
+  - warrior shade
+  - warthog
+  - wasp nest
+  - water moccasin
+  - water witch
+  - water wyrd
+  - werebear
+  - whiptail
+  - white vysan
+  - wild hound
+  - wind witch
+  - wind wraith
+  - wizened orc hag
+  - wolfshade
+  - wolverine
+  - wood sprite
+  - wood wight
+  - wooly mammoth
+  - wraith
+  - yeti
+  - young grass snake
+  - zombie
+  - zombie rolton
