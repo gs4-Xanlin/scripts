@@ -28,9 +28,6 @@
     - bugfix added word boundary to regex for finding similarly named containers
   1.5.15 (2023-05-31)
     - bugfix for stocking with similarly named containers
-    - added support for using the basket under the bench in RR
-    - bugfix for UI not greying out sigil of mending, 650, 1035 unless known
-    - bugfix for UI saving when x-ing out. Only saves with close button
   1.5.14 (2023-04-27)
     - added support for survival kit distiller
     - added support for using the basket under the bench in RR
@@ -1576,6 +1573,7 @@ module EHerbs
           if EHerbs.data[:no_get]
             use_cmd = "eat #{herb.noun}"
           else
+            drinkable = herb.name =~ EHerbs.data[:drinkable] ? true : false
             use_cmd = drinkable ? "drink my #{herb.noun}" : "eat my #{herb.noun}"
           end
 
