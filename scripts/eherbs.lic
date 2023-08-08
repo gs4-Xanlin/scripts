@@ -1576,6 +1576,7 @@ module EHerbs
           if EHerbs.data[:no_get]
             use_cmd = "eat #{herb.noun}"
           else
+            drinkable = herb.name =~ EHerbs.data[:drinkable] ? true : false
             use_cmd = drinkable ? "drink my #{herb.noun}" : "eat my #{herb.noun}"
           end
 
